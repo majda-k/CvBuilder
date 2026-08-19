@@ -13,7 +13,7 @@ export const personalDetailsPreset: PersonalDetails = {
 
 export const experiencesPreset: Experience[] = [
     {
-        id: 'uuid-1',
+        id: '1',
         jobTitle: 'Développeur Web',
         companyName: 'Tech Solutions',
         startDate: '2022-01-01',
@@ -21,7 +21,7 @@ export const experiencesPreset: Experience[] = [
         description: 'Développement d\'applications web en utilisant React et Node.js.'
     },
     {
-        id: 'uuid-2',
+        id: '2',
         jobTitle: 'Chef de projet',
         companyName: 'Innovatech',
         startDate: '2020-06-01',
@@ -32,13 +32,22 @@ export const experiencesPreset: Experience[] = [
 
 export const educationsPreset: Education[] = [
     {
-        id: 'uuid-3',
+        id: '1',
+        degree: 'Licence en Informatique',
+        school: 'Ensi',
+        startDate: '2014-09-01',
+        endDate: '2013-06-01',
+        description: 'Spécialisation en développement web et bases de données.'
+    },
+    {
+        id: '2',
         degree: 'Master en Informatique',
-        school: 'Edu',
+        school: 'Ensi',
         startDate: '2015-09-01',
         endDate: '2018-06-01',
         description: 'Spécialisation en développement web et bases de données.'
-    }
+    },
+    
 ];
 
 export const skillsPreset: Skill[] = [
